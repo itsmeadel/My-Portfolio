@@ -1,0 +1,35 @@
+.svg-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    text-align: center;
+    width: 320px;  
+    padding-top: 200px;
+   margin-bottom: -6rem;
+   
+  }
+  .shape {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 8px;
+    fill: transparent;
+    stroke:linen;
+    border-bottom: 5px solid black;
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+  }
+  .text {
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 8px;
+    color: black;
+    top: -48px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .svg-wrapper:hover .shape {
+    stroke-width: 6px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 760;
+  }
